@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+{% extends 'fourApp/base.html' %}
+{% block body_block %}
+
+    <h1>Index</h1>
+    <h3>{{ text|cut:'World' }}</h3>
+    <h3>{{ number|add:'1' }}</h3>
+
+{% endblock %}
